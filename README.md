@@ -16,7 +16,7 @@ you.
 Node.js:
 
 ```bash
-npm install telegram-format
+npm install @flla/telegram-format
 ```
 
 Deno:
