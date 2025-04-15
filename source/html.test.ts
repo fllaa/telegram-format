@@ -1,7 +1,7 @@
 import { strictEqual } from "node:assert";
 import { test } from "node:test";
-import * as format from "./html.ts";
-import type { Formatter } from "./types.ts";
+import * as format from "./html";
+import type { Formatter } from "./types";
 
 format satisfies Formatter;
 
