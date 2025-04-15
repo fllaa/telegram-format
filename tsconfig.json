@@ -2,11 +2,19 @@
 	"include": [
 		"source"
 	],
-	"compilerOptions": {
-		"declaration": true,
-		"moduleResolution": "Node",
-		"skipLibCheck": true,
-		"target": "ES2019", // Node.js 12
-		"outDir": "dist"
-	}
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "lib": [
+      "ESNext"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noUncheckedIndexedAccess": true,
+    "outDir": "dist",
+    "strict": true,
+    "target": "ESNext",
+	"noEmit": true,
+	"allowImportingTsExtensions": true
+  },
 }

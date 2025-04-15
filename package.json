@@ -20,17 +20,19 @@
 		"url": "https://edjopato.de"
 	},
 	"scripts": {
+		"compile": "tsc",
 		"prepare": "deno2node",
 		"pretest": "deno2node",
 		"test": "node --test"
 	},
-	"type": "module",
+	"type": "commonjs",
 	"engines": {
 		"node": ">=12"
 	},
 	"devDependencies": {
-		"@types/node": "^18.18.13",
-		"deno2node": "1.11.0"
+		"@types/node": "^22.14.1",
+		"deno2node": "1.11.0",
+		"typescript": "^5.8.3"
 	},
 	"files": [
 		"dist",
